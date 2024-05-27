@@ -7,3 +7,12 @@ Primeira Iteração -
 Segunda Iteração
       O algoritmo testa todas as jogadas possíveis para 'O' no novo estado do tabuleiro.
       minimax é chamado recursivamente com depth = 2 e is_max = True 
+Terceira Iteração
+      O algoritmo continua testando todas as jogadas possíveis para 'X
+      minimax é chamado recursivamente com depth = 3 e is_max = False
+Quarta Iteração
+      O algoritmo testa todas as jogadas possíveis para 'O' no novo estado do tabuleiro
+      minimax é chamado recursivamente com depth = 4 e is_max = True
+Quinta Iteração
+      O algoritmo continua testando todas as jogadas possíveis para 'X'
+      minimax é chamado recursivamente com depth = 5 e is_max = False
