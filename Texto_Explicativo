@@ -1,0 +1,9 @@
+O algoritmo minimax usa uma abordagem de tomada de decisão estratégica para jogos de tabuleiro, analisando cuidadosamente todas as jogadas possíveis para garantir a melhor estratégia.
+Este método no jogo tradicional garante que o jogador sempre jogue o melhor possível, descobrindo como o oponente reagirá e escolhendo a melhor jogada para vencer. Assim,
+o Minimx não apenas ajuda a resolver jogos antigos, mas também serve como base para a inteligência artificial em jogos mais complexos.
+Primeira Iteração -
+      find_best_move itera por todas as células vazias, testando cada uma como a possível jogada inicial de 'X'
+      minimax é chamado recursivamente com depth = 1 e is_max = False
+Segunda Iteração
+      O algoritmo testa todas as jogadas possíveis para 'O' no novo estado do tabuleiro.
+      minimax é chamado recursivamente com depth = 2 e is_max = True 
